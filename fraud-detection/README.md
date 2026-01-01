@@ -2,7 +2,7 @@
 
 A comprehensive, production-ready machine learning system for detecting fraudulent bank transactions. This system is optimized for **speed**, **security**, and **competitive performance** in real-world applications.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Project Overview](#project-overview)
 - [Features](#features)
@@ -17,7 +17,7 @@ A comprehensive, production-ready machine learning system for detecting fraudule
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Project Overview
+##  Project Overview
 
 This fraud detection system analyzes bank transaction data to identify fraudulent activities with high accuracy and recall. The system uses multiple machine learning algorithms and is optimized for handling large-scale datasets efficiently.
 
@@ -30,14 +30,14 @@ This fraud detection system analyzes bank transaction data to identify fraudulen
 
 ## ✨ Features
 
-- 🔍 **Multiple ML Models**: XGBoost, LightGBM, Random Forest, Logistic Regression
-- 📊 **Comprehensive Evaluation**: ROC-AUC, Precision-Recall, Confusion Matrix, F1-Score
-- 🎯 **Recall Optimization**: Focus on detecting fraud cases (critical for financial security)
-- ⚡ **Performance Optimized**: Fast data loading, chunking, and parallel processing
-- 🔒 **Security Features**: Input validation, data sanitization, secure model loading
-- 📈 **Interactive Dashboard**: Streamlit web application for real-time predictions
-- 📓 **Detailed Notebooks**: Complete EDA, preprocessing, modeling, and evaluation workflows
-- 📉 **Visualization**: Rich plots and analysis reports
+-  **Multiple ML Models**: XGBoost, LightGBM, Random Forest, Logistic Regression
+-  **Comprehensive Evaluation**: ROC-AUC, Precision-Recall, Confusion Matrix, F1-Score
+-  **Recall Optimization**: Focus on detecting fraud cases (critical for financial security)
+-  **Performance Optimized**: Fast data loading, chunking, and parallel processing
+-  **Security Features**: Input validation, data sanitization, secure model loading
+-  **Interactive Dashboard**: Streamlit web application for real-time predictions
+-  **Detailed Notebooks**: Complete EDA, preprocessing, modeling, and evaluation workflows
+-  **Visualization**: Rich plots and analysis reports
 
 ## 🚀 Installation
 
@@ -50,7 +50,7 @@ This fraud detection system analyzes bank transaction data to identify fraudulen
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone <repository-url>](https://github.com/Elefachew21/Fraud-Detection-Systems.git)
 cd fraud-detection
 ```
 
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 python -c "import pandas, sklearn, xgboost, lightgbm; print('All packages installed successfully!')"
 ```
 
-## 🏃 Quick Start
+##  Quick Start
 
 ### 1. Data Processing
 
@@ -167,7 +167,7 @@ fraud-detection/
 └── README.md                      # This file
 ```
 
-## 💻 Usage
+##  Usage
 
 ### Data Processing
 
@@ -239,14 +239,14 @@ predictions = model.predict(X_new_proc)
 probabilities = model.predict_proba(X_new_proc)
 ```
 
-## 📊 Model Performance
+##  Model Performance
 
 The system evaluates models using multiple metrics:
 
 ### Classification Metrics
 - **Accuracy**: Overall correctness
 - **Precision**: True positives / (True positives + False positives)
-- **Recall**: True positives / (True positives + False negatives) ⭐ **Optimized**
+- **Recall**: True positives / (True positives + False negatives)  **Optimized**
 - **F1-Score**: Harmonic mean of precision and recall
 - **ROC-AUC**: Area under the ROC curve
 - **Average Precision**: Area under the Precision-Recall curve
@@ -266,7 +266,7 @@ With proper hyperparameter tuning and class balancing:
 - **F1-Score**: > 0.80
 - **Precision**: Varies based on recall optimization trade-off
 
-## 🔍 Key Findings
+##  Key Findings
 
 ### Data Characteristics
 - **Highly Imbalanced Dataset**: Fraud cases represent < 1% of transactions
@@ -280,7 +280,7 @@ With proper hyperparameter tuning and class balancing:
 - **Feature Engineering**: Balance changes and ratios are highly predictive
 - **Recall Optimization**: Critical for minimizing financial losses
 
-## 🔒 Security Considerations
+## Security Considerations
 
 ### Input Validation
 - All inputs are validated before processing
@@ -297,7 +297,7 @@ With proper hyperparameter tuning and class balancing:
 - Secure data handling in preprocessing
 - Option to use encrypted storage for models
 
-## ⚡ Performance Optimizations
+##  Performance Optimizations
 
 ### Fast Loading
 - **Chunking**: Process large files in chunks
@@ -316,7 +316,7 @@ With proper hyperparameter tuning and class balancing:
 - **Batch Prediction**: Efficient batch processing
 - **Caching**: Streamlit caching for faster dashboard
 
-## 📚 Notebooks Guide
+## Notebooks Guide
 
 ### 01_eda.ipynb
 - Dataset exploration
@@ -354,11 +354,11 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Dataset: Bank transaction fraud detection dataset
 - Libraries: scikit-learn, XGBoost, LightGBM, Streamlit
@@ -371,4 +371,5 @@ For questions or issues, please open an issue on GitHub.
 ---
 
 **Note**: This system is optimized for fraud detection with a focus on recall. Adjust the scoring metric in `FraudModelTrainer` if you need to balance precision and recall differently.
+
 
